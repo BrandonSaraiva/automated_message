@@ -1,0 +1,2 @@
+# Modos de utilizar
+Na pasta Dist se encontra o executavel do código. Primeiro voce precisa ter o google chrome instalado em sua maquina, faça login no wts web e na shopee tambem, deixe a opção de continuar logado pois o codigo irá pegar suas preferencias e ser executado localmente. Feito isso é só rodar o executavel, para aparecer algo na tela de comando pressione qualquer tecla, nos textos ele irá ser bem auto explicativo sobre os inputs que espera. Todo dia as 22 ele vai entrar na shopee e clicar na verificação diária para te dar o bonus diário de moedas.
