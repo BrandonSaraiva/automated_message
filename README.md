@@ -16,7 +16,9 @@ Este projeto consiste em um bot para automatizar o envio de mensagens em um dete
 
 3. Execute o executável fornecido na pasta "Dist". Ao ser executado, o programa exibirá uma tela de comando.
 
-4. Pressione qualquer tecla para avançar. Os textos exibidos serão autoexplicativos e fornecerão orientações sobre os inputs necessários.
+4. Lembre-se de colocar o nome do seu contato que receberá a mensagem corretamente no input quando for pedido.
+
+5. Pressione qualquer tecla para avançar. Os textos exibidos serão autoexplicativos e fornecerão orientações sobre os inputs necessários.
 
 Diariamente, às 22 horas, o bot acessará a plataforma Shopee e clicará na verificação diária para fornecer o bônus diário de moedas.
 
