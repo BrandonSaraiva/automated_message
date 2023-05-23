@@ -1,14 +1,10 @@
-import keyboard
-import pyautogui
+# importações das bibliotecas e funções
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 import time
 import getpass
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
-
 from funcoes.momento_atual import hora_atual
-
 
 def shopeeDiary():
     try:
@@ -26,7 +22,7 @@ def shopeeDiary():
         driver.get("https://shopee.com.br/shopee-coins/")
         time.sleep(5)
 
-        # LOcalizando o botao e clicando nele 3 vezes para ter ctz q pegou todas
+        # LOcalizando o botao e clicando nele 3 vezes para ter ctz q foi
         for c in range(3):
             button = driver.find_element(By.CSS_SELECTOR, 'button.pcmall-dailycheckin_3u8jig')
             button.click()

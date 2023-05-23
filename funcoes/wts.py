@@ -1,3 +1,4 @@
+# importações das bibliotecas e funções
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
@@ -51,6 +52,7 @@ def webWts(nome, texto):
 
         time.sleep(1)
 
+        # Clicando no botao de enviar
         send_button = driver.find_element(By.CSS_SELECTOR,'[data-testid="compose-btn-send"]')
         send_button.click()
 
