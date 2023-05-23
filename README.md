@@ -10,10 +10,11 @@ Este projeto consiste em um bot para automatizar o envio de mensagens em um dete
 - pyperclip
 
 # Modos de utilizar
-
+--------------------------------------------------------
 **IMPORTANTE**
 
 **Para que o código possa funcionar você não pode ter nenhuma aba do chrome aberta, o chrome tem que ser destinado só para esse bot!!**
+----------------------------------------------------------
 
 1. Certifique-se de ter o Google Chrome instalado em sua máquina.
 
