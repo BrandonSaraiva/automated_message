@@ -4,6 +4,7 @@ import threading
 import time
 from funcoes.shopee import shopeeDiary
 from funcoes.envio import enviar_mensagem
+from selenium.common.exceptions import WebDriverException
 
 def run_at_specific_times():
     hoje = datetime.now().date()
@@ -17,7 +18,7 @@ def run_at_specific_times():
 
     # Resto do código continua aqui...
 
-    pessoas = int(input("\nDigite o número de pessoas para enviar a mensagem: "))
+    pessoas = int(input("\nQuantas pessoas você quer enviar mensagens?: "))
 
     mensagens = []
     for i in range(pessoas):
@@ -38,19 +39,29 @@ def run_at_specific_times():
         minute = current_time.tm_min
 
         for mensagem in mensagens:
-            enviado = enviar_mensagem(mensagem[0], mensagem, minute)
-            if enviado:
-                counter += 1
+            try:
+                enviado = enviar_mensagem(mensagem[0], mensagem, minute)
+                if enviado:
+                    counter += 1
+            except WebDriverException as e:
+                print("\nErro: Para o código funcionar, você não pode ter outra janela do Google Chrome aberta.")
+                print("Por favor, feche todas as janelas do Google Chrome e tente novamente.")
+                return
 
         if counter == len(mensagens) and not foi_todos:
-            print("\n \033[1mENVIEI MSG PARA TODOS NA LISTA\033[😀")
+            print("\n\033[1mENVIEI MSG PARA TODOS NA LISTA\033[😀")
             foi_todos = True
 
         if hour == 22 and not foi_todos:
-            t = threading.Thread(target=selecUser)
-            t.start()
-            shopeeDiary()
-            foi_todos = True
+            try:
+                t = threading.Thread(target=selecUser)
+                t.start()
+                shopeeDiary()
+                foi_todos = True
+            except WebDriverException as e:
+                print("\n\033[1mErro!!\033[: Para o código funcionar, você não pode ter outra janela do Google Chrome aberta.")
+                print("Por favor, feche todas as janelas do Google Chrome e tente novamente.")
+                return
 
         time.sleep(31)
 

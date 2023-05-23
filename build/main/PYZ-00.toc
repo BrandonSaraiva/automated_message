@@ -1,5 +1,5 @@
 ('C:\\Users\\devbr\\OneDrive\\Área de '
- 'Trabalho\\anaShopee\\build\\main\\PYZ-00.pyz',
+ 'Trabalho\\messages_shopee\\build\\main\\PYZ-00.pyz',
  [('PIL',
    'C:\\Users\\devbr\\AppData\\Local\\Programs\\Python\\Python310\\lib\\site-packages\\PIL\\__init__.py',
    'PYMODULE'),
@@ -881,22 +881,24 @@
    'PYMODULE'),
   ('funcoes', '-', 'PYMODULE'),
   ('funcoes.envio',
-   'C:\\Users\\devbr\\OneDrive\\Área de Trabalho\\anaShopee\\funcoes\\envio.py',
+   'C:\\Users\\devbr\\OneDrive\\Área de '
+   'Trabalho\\messages_shopee\\funcoes\\envio.py',
    'PYMODULE'),
   ('funcoes.momento_atual',
    'C:\\Users\\devbr\\OneDrive\\Área de '
-   'Trabalho\\anaShopee\\funcoes\\momento_atual.py',
+   'Trabalho\\messages_shopee\\funcoes\\momento_atual.py',
    'PYMODULE'),
   ('funcoes.pyauto',
    'C:\\Users\\devbr\\OneDrive\\Área de '
-   'Trabalho\\anaShopee\\funcoes\\pyauto.py',
+   'Trabalho\\messages_shopee\\funcoes\\pyauto.py',
    'PYMODULE'),
   ('funcoes.shopee',
    'C:\\Users\\devbr\\OneDrive\\Área de '
-   'Trabalho\\anaShopee\\funcoes\\shopee.py',
+   'Trabalho\\messages_shopee\\funcoes\\shopee.py',
    'PYMODULE'),
   ('funcoes.wts',
-   'C:\\Users\\devbr\\OneDrive\\Área de Trabalho\\anaShopee\\funcoes\\wts.py',
+   'C:\\Users\\devbr\\OneDrive\\Área de '
+   'Trabalho\\messages_shopee\\funcoes\\wts.py',
    'PYMODULE'),
   ('getopt',
    'C:\\Users\\devbr\\AppData\\Local\\Programs\\Python\\Python310\\lib\\getopt.py',
