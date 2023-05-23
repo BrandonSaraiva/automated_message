@@ -32,4 +32,4 @@ def shopeeDiary():
 
         driver.quit()
     except NoSuchElementException:
-        print("Erro ao achar algum elemento")
+        print("\n!Erro ao achar algum elemento na pagina!")

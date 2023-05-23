@@ -7,6 +7,7 @@ from funcoes.shopee import shopeeDiary
 from funcoes.envio import enviar_mensagem
 from selenium.common.exceptions import WebDriverException
 
+
 def run_at_specific_times():
     hoje = datetime.now().date()  # Obtém a data atual
     escolha = input("\nAs mensagens devem ser enviadas hoje? (s/n): ")  # Pergunta se as mensagens devem ser enviadas hoje
