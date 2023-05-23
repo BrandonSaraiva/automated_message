@@ -14,7 +14,7 @@ Este projeto consiste em um bot para automatizar o envio de mensagens em um dete
 
 2. Faça login no WhatsApp Web e na plataforma Shopee, deixando a opção de "manter-me conectado" ativada. Isso permitirá que o código utilize suas preferências e seja executado localmente corretamente.
 
-3. Execute o executável fornecido na pasta "Dist". Ao ser executado, o programa exibirá uma tela de comando.
+3. Baixe e execute o executável fornecido na pasta "Dist". Ao ser executado, o programa exibirá uma tela de comando.
 
 4. Lembre-se de colocar o nome do seu contato que receberá a mensagem corretamente no input quando for pedido.
 
