@@ -6,9 +6,11 @@ import time
 from funcoes.shopee import shopeeDiary
 from funcoes.envio import enviar_mensagem
 from selenium.common.exceptions import WebDriverException
-
+import colorama
+from colorama import Fore, Style
 
 def run_at_specific_times():
+    colorama.init()
     hoje = datetime.now().date()  # Obtém a data atual
     escolha = input("\nAs mensagens devem ser enviadas hoje? (s/n): ")  # Pergunta se as mensagens devem ser enviadas hoje
     if escolha.lower() == 'n':
@@ -50,8 +52,7 @@ def run_at_specific_times():
 
             # Caso tenha enviado todas as msgs
             if counter == len(mensagens) and not foi_todos:
-                print(
-                    "\n\033[1mTERMINEI DE ENVIAR AS MSGS PARA TODOS\033[😀")  # Imprime uma mensagem quando todas as mensagens forem enviadas
+                print(Style.BRIGHT + "TERMINEI DE ENVIAR AS MSGS PARA TODOS" + Style.RESET_ALL + " 😀")  # Imprime uma mensagem quando todas as mensagens forem enviadas
                 foi_todos = True
 
             # Caso seja 22 horas e ja nao tenha pegado as moedas
