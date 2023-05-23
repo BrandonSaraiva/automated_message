@@ -17,8 +17,6 @@ def run_at_specific_times():
             hoje = datetime.now().date()
             time.sleep(60)  # Espera 1 minuto antes de verificar novamente
 
-    # Resto do código continua aqui...
-
     pessoas = int(input("\nQuantas pessoas você quer enviar mensagens?: "))  # Pergunta o número de pessoas para enviar mensagens
 
     mensagens = []
@@ -49,11 +47,13 @@ def run_at_specific_times():
                 print("Por favor, feche todas as janelas do Google Chrome e tente novamente.")
                 return
 
+            # Caso tenha enviado todas as msgs
             if counter == len(mensagens) and not foi_todos:
                 print(
                     "\n\033[1mTERMINEI DE ENVIAR AS MSGS PARA TODOS\033[😀")  # Imprime uma mensagem quando todas as mensagens forem enviadas
                 foi_todos = True
 
+            # Caso seja 22 horas e ja nao tenha pegado as moedas
             if hour == 22 and not foi_todos:
                 try:
                     t = threading.Thread(
