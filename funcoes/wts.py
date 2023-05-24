@@ -4,12 +4,15 @@ from selenium.webdriver.common.keys import Keys
 import time
 import getpass
 from selenium.webdriver.common.by import By
-from selenium.common.exceptions import NoSuchElementException
 import pyperclip
 from funcoes.momento_atual import hora_atual
+import colorama
+from colorama import Fore, Style
+from selenium.common.exceptions import NoSuchElementException
 
 def webWts(nome, texto):
     try:
+        colorama.init()
     # Obtendo o nome de usuário do sistema
         username = getpass.getuser()
 
@@ -63,5 +66,10 @@ def webWts(nome, texto):
 
 
     except NoSuchElementException:
-        print("\n!Erro ao achar algum elemento na pagina!")
+        print(Style.BRIGHT + "\n!Erro ao achar algum elemento na pagina!")
+        return
+
+    except NoSuchElementException:
+        print(Style.BRIGHT + "\n!Erro ao achar algum elemento na pagina!")
+        return
 

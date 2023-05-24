@@ -5,9 +5,13 @@ import getpass
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import NoSuchElementException
 from funcoes.momento_atual import hora_atual
+import colorama
+from colorama import Fore, Style
+from selenium.common.exceptions import WebDriverException
 
 def shopeeDiary():
     try:
+        colorama.init()
         # Obtendo o nome de usuário do sistema
         username = getpass.getuser()
 
@@ -32,4 +36,10 @@ def shopeeDiary():
 
         driver.quit()
     except NoSuchElementException:
-        print("\n!Erro ao achar algum elemento na pagina!")
+        print(Style.BRIGHT + "\n!Erro ao achar algum elemento na pagina!")
+        return False
+    except WebDriverException as e:
+        print(
+            Style.BRIGHT + "\nErro!!Para o código funcionar, você não pode ter outra janela do Google Chrome aberta.")
+        print(Style.BRIGHT + "Por favor, feche todas as janelas do Google Chrome e tente novamente.")
+        return False
