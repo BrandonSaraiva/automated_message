@@ -27,7 +27,7 @@ Este projeto consiste em automatizar o envio de mensagens em um determinado hor�
 
 4. Lembre-se de colocar o nome do seu contato que receberá a mensagem corretamente no input quando for pedido.
 
-5. Quando o terminal for aberto, pressione qualquer tecla para avançar. Os textos exibidos serão autoexplicativos e fornecerão orientações sobre os inputs necessários.
+5. Quando o terminal for aberto, pressione qualquer tecla para aparecer as msgs caso não estejam aparecendo. Os textos exibidos serão autoexplicativos e fornecerão orientações sobre os inputs necessários.
 
 Diariamente, às 22 horas, o bot acessará a plataforma Shopee e clicará na verificação diária para fornecer o bônus diário de moedas.
 
