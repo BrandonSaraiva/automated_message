@@ -21,13 +21,13 @@ Este projeto consiste em automatizar o envio de mensagens em um determinado hor�
 
 1. Certifique-se de ter o Google Chrome instalado em sua máquina.
 
-2. Faça login no WhatsApp Web e na plataforma Shopee, deixando a opção de "manter-me conectado" ativada. Isso permitirá que o código utilize suas preferências e seja executado localmente corretamente.
+2. Faça login no WhatsApp Web e na plataforma Shopee, deixe sua conta google logada no google Chrome também, deixando a opção de "manter-me conectado" ativada. Isso permitirá que o código utilize suas preferências e seja executado localmente corretamente.
 
 3. Baixe e execute o executável fornecido na pasta "Dist". Ao ser executado, o programa exibirá uma tela de comando.
 
 4. Lembre-se de colocar o nome do seu contato que receberá a mensagem corretamente no input quando for pedido.
 
-5. Pressione qualquer tecla para avançar. Os textos exibidos serão autoexplicativos e fornecerão orientações sobre os inputs necessários.
+5. Quando o terminal for aberto, pressione qualquer tecla para aparecer as msgs caso não estejam aparecendo. Os textos exibidos serão autoexplicativos e fornecerão orientações sobre os inputs necessários.
 
 Diariamente, às 22 horas, o bot acessará a plataforma Shopee e clicará na verificação diária para fornecer o bônus diário de moedas.
 
