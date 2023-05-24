@@ -38,6 +38,7 @@ def run_at_specific_times():
             if escolha.lower() == 'n':
                 dia_especifico = int(input("\nDigite o dia específico que a mensagem será enviada: "))  # Pergunta o dia específico para enviar as mensagens
                 data_especifica = datetime(hoje.year, hoje.month, dia_especifico).date()  # Cria uma data específica
+                print("\nTudo certo, agora só aguardar!")
                 while hoje < data_especifica:
                     hoje = datetime.now().date()
                     current_time = time.localtime()
@@ -59,7 +60,7 @@ def run_at_specific_times():
                     time.sleep(60)  # Espera 1 minuto antes de verificar novamente
 
         counter = 0  # Contador para acompanhar quantas mensagens foram enviadas
-
+        print("\nAgora só aguardar!")
         while True:
             current_time = time.localtime()  # Obtém a hora atual
             hour = current_time.tm_hour  # Obtém a hora atual
