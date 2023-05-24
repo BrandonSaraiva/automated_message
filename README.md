@@ -21,7 +21,7 @@ Este projeto consiste em automatizar o envio de mensagens em um determinado hor�
 
 1. Certifique-se de ter o Google Chrome instalado em sua máquina.
 
-2. Faça login no WhatsApp Web e na plataforma Shopee, deixando a opção de "manter-me conectado" ativada. Isso permitirá que o código utilize suas preferências e seja executado localmente corretamente.
+2. Faça login no WhatsApp Web e na plataforma Shopee, deixe sua conta google logada no google Chrome também, deixando a opção de "manter-me conectado" ativada. Isso permitirá que o código utilize suas preferências e seja executado localmente corretamente.
 
 3. Baixe e execute o executável fornecido na pasta "Dist". Ao ser executado, o programa exibirá uma tela de comando.
 
