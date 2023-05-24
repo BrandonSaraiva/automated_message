@@ -14,6 +14,8 @@ Este projeto consiste em automatizar o envio de mensagens em um determinado hor�
 **IMPORTANTE**
 
 **Para que o código possa funcionar você não pode ter nenhuma aba do chrome aberta, o chrome tem que ser destinado só para esse bot!!**
+
+**CASO O MOUSE TENTE CLICAR NO SEU PERFIL DO CHROME E ERRAR, CLIQUE MANUALMENTE NELE (ESSE CODIGO FOI SETADO COM OS PIXEIS DO MEU PC, POR ISSO PODE ACONTECER ISSO)**
 ----------------------------------------------------------
 ----------------------------------------------------------
 
