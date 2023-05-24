@@ -22,6 +22,7 @@ def run_at_specific_times():
 
         mensagens = []
         if pessoas > 0:
+            print("----------------------------------------------------------")
             escolha = input(
                 "\nAs mensagens devem ser enviadas hoje? (s/n): ")  # Pergunta se as mensagens devem ser enviadas hoje
             for i in range(pessoas):
@@ -32,6 +33,7 @@ def run_at_specific_times():
                 minuto = int(input(
                     f"\nDigite o minuto que deseja enviar a mensagem para a pessoa {i + 1}: "))  # Pergunta o minuto para enviar a mensagem
                 mensagens.append((nome, mensagem, hora, minuto))  # Adiciona as informações da mensagem à lista de mensagens
+                print("----------------------------------------------------------")
 
             print("\nTudo certo! Irei enviar suas mensagens nesses horarios!")  # Confirmação das mensagens a serem enviadas
 
