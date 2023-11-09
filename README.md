@@ -1,34 +1,34 @@
-# Sobre o Projeto
-Este projeto consiste em automatizar o envio de mensagens em um determinado horário do dia, além de coletar diariamente as moedas da plataforma Shopee. O objetivo é fornecer uma solução simples para essas tarefas específicas.
+# About the project
+This project consists of automating the sending of messages at a certain time of the day, in addition to collecting coins from the Shopee platform daily. The goal is to provide a simple solution to these specific tasks.
 
-# Biliotecas utilizadas
+# Libraries used
 - threading
-- time
+- team
 - datetime
 - pyautogui
 - getpass
 - pyperclip
 
-# Modos de utilizar
---------------------------------------------------------
-**IMPORTANTE**
+# Ways to use
+-------------------------------------------------- ------
+**IMPORTANT**
 
-**PARA QUE O CÓDIGO POSSA FUNCIONAR, VOCÊ NÃO PODE TER NENHUMA ABA DO CHROME ABERTA, O CHROME TEM QUE SER DESTINADO SÓ PARA ESSE BOT!!**
+**IN ORDER FOR THE CODE TO WORK, YOU CANNOT HAVE ANY CHROME TAB OPEN, THE CHROME MUST BE DESTINED ONLY FOR THIS BOT!!**
 
-**CASO O MOUSE TENTE CLICAR NO SEU PERFIL DO CHROME E ERRAR, CLIQUE MANUALMENTE NELE (ESSE CODIGO FOI SETADO COM OS PIXEIS DO MEU PC, POR ISSO PODE ACONTECER ISSO)**
-----------------------------------------------------------
-----------------------------------------------------------
+**IF THE MOUSE TRYS TO CLICK ON YOUR CHROME PROFILE AND MAKES A MISTAKE, CLICK ON IT MANUALLY (THIS CODE WAS SET WITH MY PC'S PIXELS, SO THIS CAN HAPPEN)**
+-------------------------------------------------- --------
+-------------------------------------------------- --------
 
-1. Certifique-se de ter o Google Chrome instalado em sua máquina.
+1. Make sure you have Google Chrome installed on your machine.
 
-2. Faça login no WhatsApp Web e na plataforma Shopee, deixe sua conta google logada no google Chrome também, deixando a opção de "manter-me conectado" ativada. Isso permitirá que o código utilize suas preferências e seja executado localmente corretamente.
+2. Log in to WhatsApp Web and the Shopee platform, leave your Google account logged in to Google Chrome as well, leaving the "stay me signed in" option activated. This will allow the code to utilize your preferences and run locally correctly.
 
-3. Baixe e execute o executável fornecido na pasta "Dist". Ao ser executado, o programa exibirá uma tela de comando.
+3. Download and run the executable provided in the "Dist" folder. When executed, the program will display a command screen.
 
-4. Lembre-se de colocar o nome do seu contato que receberá a mensagem corretamente no input quando for pedido.
+4. Remember to enter the name of your contact who will receive the message correctly in the input when requested.
 
-5. Quando o terminal for aberto, pressione qualquer tecla para aparecer as msgs caso não estejam aparecendo. Os textos exibidos serão autoexplicativos e fornecerão orientações sobre os inputs necessários.
+5. When the terminal opens, press any key to display the messages if they are not appearing. The texts displayed will be self-explanatory and will provide guidance on the necessary inputs.
 
-Diariamente, às 22 horas, o bot acessará a plataforma Shopee e clicará na verificação diária para fornecer o bônus diário de moedas.
+Daily at 10 pm, the bot will access the Shopee platform and click on the daily check to provide the daily coin bonus.
 
-Certifique-se de seguir essas etapas e fornecer as informações necessárias para o correto funcionamento do bot.
+Make sure you follow these steps and provide the necessary information for the bot to function correctly.
